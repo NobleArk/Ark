@@ -1,5 +1,5 @@
 var b = 2
 
-String first = "Hello World!"
+String first = new "Hello World!"
 
 println first;
