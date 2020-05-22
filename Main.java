@@ -30,29 +30,63 @@ public class Main {
 
         //System.out.println(b);
 
-        String s1 = "Hello!";
-        String s2 = "Hello!";
+    //     String s1 = "Hello!";
+    //     String s2 = "Hello!";
 
-        if (s1 == s2) {
-            System.out.println("Match!");
-        } else {
-            System.out.println("They Don't match");
-        }
+    //     if (s1 == s2) {
+    //         System.out.println("Match!");
+    //     } else {
+    //         System.out.println("They Don't match");
+    //     }
 
-        String s3 = new String("Hello!");
-        String s4 = new String("HELLO!");
-        if (s3 == s4) {
-            System.out.println("Match!");
-        } else {
-            System.out.println("They Don't match");
-        }
+    //     String s3 = new String("Hello!");
+    //     String s4 = new String("HELLO!");
+    //     if (s3 == s4) {
+    //         System.out.println("Match!");
+    //     } else {
+    //         System.out.println("They Don't match");
+    //     }
 
-        if (s3.equalsIgnoreCase(s4)) {
-            System.out.println("Match!");
-        } else {
-            System.out.println("They Don't match");
+    //     if (s3.equalsIgnoreCase(s4)) {
+    //         System.out.println("Match!");
+    //     } else {
+    //         System.out.println("They Don't match");
+    //     }
+
+        System.out.println("Don't forget to close your tags with a ';'");
+        // Challenge: Create a Calculator 
+        // user inputs two values
+        // then selects the operation (+ - / *)
+        // then the calculator calculates accurately
+        // use doubles
+        // use custom methods
+        // use a switch statement
+
+        // collect two inputs
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.print("Please input a number: ");
+            String input1 = scanner.nextLine();
+            if (input1.length() == 0) {
+                break;
+            }
+            System.out.print("Please input a number: ");
+            String input2 = scanner.nextLine();
+            if (input2.length() == 0) {
+                break;
+            }
+            System.out.print("Please select an operation (+ - * /): ");
+            String input3 = scanner.nextLine();
+            if (input3.length() == 0) {
+                break;
+            }
+            
         }
+        // collect operand
+
+        // setup a switch statement for which operand is inputted
+
+
 
     }
-
 }
